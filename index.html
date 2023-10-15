@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Data</title>
+</head>
+
+<body style="background-color: #072541; color: #fff;">
+    <h2 style="background-color: #5272F2; width: 200px;">Personal Data</h2>
+    <form>
+        <fieldset style="background-color: #F8BDEB; color: #072541;">
+            <legend style="background-color: #5272F2;">Your Name: </legend>
+        <table>
+                <tr>
+                    <td>first name: </td>
+                    <td><input type="text" placeholder="ex: seif"></td>
+                </tr>
+                <tr>
+                    <td>last name : </td>
+                    <td><input type="text" placeholder="ex: eslam"></td>
+                </tr>
+                
+            <tr>
+                <td><br/><br/></td>
+            </tr>
+            <tr>
+                <td>your phone:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>password:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>re-password:</td>
+                <td><input type="password"></td>
+            </tr>
+            
+        </table>
+    </fieldset>
+        <input type="radio" name="gender" value="male">male <br/>
+        <input type="radio" name="gender" value="female">female <br/><br/>
+
+        <input type="checkbox" name="status" value="student">student <br/>
+        <input type="checkbox" name="status" value="graduated">graduated <br/><br/>
+        <select name="select">
+            <optgroup label="Group 1">
+                <option value="value1" selected>Option 1.1</option>
+            </optgroup>
+            <optgroup label="Group 2">
+                <option value="value2">Option 2.1</option>
+                <option value="value3">Option 2.2</option>
+            </optgroup>
+            <optgroup label="Group 3" disabled>
+                <option value="value4">Option 3.1</option>
+                <option value="value5">Option 3.2</option>
+                <option value="value6">Option 3.3</option>
+            </optgroup>
+        </select>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
